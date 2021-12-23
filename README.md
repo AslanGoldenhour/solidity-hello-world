@@ -7,6 +7,7 @@
 4. Run `npx hardhat run scripts/deploy.js --network ropsten` to deploy the contract
 5. Copy the contract address from the console and replace the `CONTACT_ADDRESS` value within `.env`
 6. Run `npx hardhat run scripts/interact.js --network ropsten` to update the contract
+7. Run `npx hardhat verify --network ropsten [your contract address] 'Hello World!'` to deploy the contract source to etherscan
 
 ## See
 - https://www.youtube.com/watch?v=g73EGNKatDw
